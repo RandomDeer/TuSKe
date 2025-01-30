@@ -15,6 +15,7 @@
 
 /* SETTINGS */
 :root {
+  --background: url('https://raw.githubusercontent.com/RandomDeer/ohdeer.vip/refs/heads/main/img/VRChat_2024-08-05_18-42-08.852_1920x1080.png');
   /* ACCENT COLORS */
   --main-color: #ff0f0f; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
   --hover-color: #b31e1e; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
