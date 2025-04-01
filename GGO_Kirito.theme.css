@@ -1,7 +1,7 @@
 /**
- * @name OhDeer
+ * @name ClearVision
  * @author ClearVision Team
- * @version Cum
+ * @version 6.9.0
  * @description Highly customizable theme for BetterDiscord.
  * @source https://github.com/ClearVision/ClearVision-v6
  * @website https://clearvision.github.io
@@ -11,17 +11,18 @@
 /* Credits to Zerthox for making the original theme. */
 
 /* IMPORT CSS */
-@import url(https://raw.githubusercontent.com/RandomDeer/TuSKe/main/main.css);
+@import url(https://clearvision.github.io/ClearVision-v6/main.css);
 
 /* SETTINGS */
 :root {
-  --background: url('https://raw.githubusercontent.com/RandomDeer/ohdeer.vip/refs/heads/main/img/VRChat_2024-08-05_18-42-08.852_1920x1080.png');
   /* ACCENT COLORS */
+  --background: url('https://raw.githubusercontent.com/RandomDeer/ohdeer.vip/refs/heads/main/img/VRChat_2024-08-05_18-42-08.852_1920x1080.png');
   --main-color: #ff0f0f; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
   --hover-color: #b31e1e; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
   --success-color: #b54343; /* success accent color (hex, rgb or hsl) [default: #43b581] */
   --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
-  --url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/
+  --url-color: var(--main-color); /* url links accent color (hex, rgb or hsl) [default: var(--main-color)] */
+  --focus-color: var(--main-color); /* focus accent color (hex, rgb or hsl) [default: var(--focus-primary)] */
 
   /* STATUS COLORS */
   --online-color: #43b581; /* online status color (hex, rgb or hsl) [default: #43b581] */
@@ -37,11 +38,12 @@
   --text-muted: rgb(114, 118, 125); /* color of default discord muted text (e.g.text found in input fields before typing).*/
   --channels-width: 220px; /* channel list width (240px for Discord default) [default: 220px] */
   --members-width: 240px; /* member list width [default: 240px] */
+  --server-unread: var(--main-color); /* Color of the icon for servers with unread messages [default: var(--main-color)] */
 
   /* APP BACKGROUND */
   --background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
   --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://github.com/RandomDeer/ohdeer.vip/blob/main/img/VRChat_2024-08-05_18-42-08.852_1920x1080.png?raw=true); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
+  --background-image: url(https://clearvision.github.io/images/sapphire.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
@@ -59,11 +61,12 @@
   --home-position: center; /* home button icon position [default: center] */
   --home-size: 40px; /* home button icon size [default: 40px] */
 
-  /* CHANNEL COLORS */
-  --channel-unread: var(--main-color); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
-  --channel-color: rgba(255, 255, 255, 0.3); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
-  --channel-text-selected: #fff; /* Selected channel text color, CV default is #fff */
-  --muted-color: rgba(255, 255, 255, 0.1); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
+  /* CHANNEL TEXT COLORS */
+  --channel-color: rgba(255, 255, 255, 0.3); /* channel text color [default: rgba(255, 255, 255, 0.3)] */
+  --channel-hovered: rgba(255, 255, 255, 0.7); /* hovered channel text color [default: rgba(255, 255, 255, 0.7)] */
+  --channel-unread: var(--main-color); /* unread channel textcolor [default: var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
+  --channel-selected: #ffffff; /* selected channel text color [default: #ffffff] */
+  --channel-muted: rgba(255, 255, 255, 0.1); /* muted channel text color [default: rgba(255,255,255,0.1)] */
 
   /* MODAL BACKDROP */
   --backdrop-overlay: rgba(0, 0, 0, 0.8); /* modal backdrop overlay color/gradient [default: rgba(0, 0, 0, 0.8)] */
