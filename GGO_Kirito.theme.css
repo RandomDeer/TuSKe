@@ -16,7 +16,6 @@
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --background: url('https://raw.githubusercontent.com/RandomDeer/ohdeer.vip/refs/heads/main/img/VRChat_2024-08-05_18-42-08.852_1920x1080.png');
   --main-color: #ff0f0f; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
   --hover-color: #b31e1e; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
   --success-color: #b54343; /* success accent color (hex, rgb or hsl) [default: #43b581] */
@@ -43,7 +42,7 @@
   /* APP BACKGROUND */
   --background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
   --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://clearvision.github.io/images/sapphire.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
+  --background-image: url(https://raw.githubusercontent.com/RandomDeer/ohdeer.vip/refs/heads/main/img/VRChat_2024-08-05_18-42-08.852_1920x1080.png); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
